@@ -1,0 +1,41 @@
+<LinearLayout 
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F7F0B6"
+    android:orientation="vertical"
+    >
+    
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Contact"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_promotion"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Promotion"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/btn_place"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Place"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+    
+</LinearLayout>
